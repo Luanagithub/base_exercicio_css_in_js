@@ -26,8 +26,43 @@
 
 .heroTitle {
   font-family: Gloock, serif;
-  font-size: 48px;
+  font-size: 28px;
+
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
 }
+.heroTitle2 {
+  font-family: Gloock, serif;
+  font-size: 28px;
+
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+}
+
+    /* The typing effect */
+    @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+    }
+
+
 
 @media (max-width: 768px) {
   .form {

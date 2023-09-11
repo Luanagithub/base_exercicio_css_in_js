@@ -1,9 +1,13 @@
+import styled from 'styled-components';
 import styles from './Cabecalho.module.css'
 
-const Cabecalho = () => (
-  <header className={styles.cabecalho}>
-    <h1>EBAC Jobs</h1>
-  </header>
-)
+
+export const Cabecalho = styled.header`
+  background-color: #9659ff;
+  color: var(--cor-principal);
+  text-align: center;
+  padding: 10px 0;
+  color: #ffffff;
+`;
 
 export default Cabecalho

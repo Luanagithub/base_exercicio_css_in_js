@@ -1,6 +1,5 @@
 :root {
-  --cor-principal: #a7727d;
-  --cor-secundaria: #f9f5e7;
+  transition: all 2s ease-in-out;
 }
 
 * {
