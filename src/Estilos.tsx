@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from 'styled-components'
 
 export const Vagaz = styled.ul`
   background-color: #ffffff;
@@ -9,7 +8,6 @@ export const Vagaz = styled.ul`
     background-color: #9659ff80;
     transition: ease-in-out 2s;
   }
-  
-`;
+`
 
 export default Vagaz

@@ -9,7 +9,7 @@ import './global.css'
 function App() {
   return (
     <>
-    <GlobalStyle>  </GlobalStyle>
+      <GlobalStyle> </GlobalStyle>
 
       <Header>
         <h1>EBAC Jobs</h1>

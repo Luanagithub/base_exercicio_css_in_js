@@ -1,8 +1,7 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   * {
-    font-family:;
     transition-delay: 20s;
   }
 
@@ -38,5 +37,4 @@ export const GlobalStyle = createGlobalStyle`
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
-`;
-
+`

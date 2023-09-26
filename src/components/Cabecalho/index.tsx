@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-import styles from './Cabecalho.module.css'
-
+import styled from 'styled-components'
 
 export const Cabecalho = styled.header`
   background-color: #9659ff;
@@ -8,6 +6,6 @@ export const Cabecalho = styled.header`
   text-align: center;
   padding: 10px 0;
   color: #ffffff;
-`;
+`
 
 export default Cabecalho
